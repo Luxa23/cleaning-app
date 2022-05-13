@@ -1,9 +1,15 @@
 import Nav from '../components/Nav';
+import MateCard from '../components/MateCard';
 
 export default function PersonsPage() {
   return (
     <>
-      <h2>Hallo, persons page</h2>
+      <div>
+        <MateCard>Bob</MateCard>
+        <MateCard>Alice</MateCard>
+        <MateCard>Eve</MateCard>
+      </div>
+
       <Nav></Nav>
     </>
   );

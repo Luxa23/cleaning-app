@@ -1,13 +1,13 @@
 import Nav from '../components/Nav';
-import Card from '../components/Card';
+import RoomCard from '../components/RoomCard';
 
 export default function Home() {
   return (
     <>
       <div>
-        <Card>Kitchen</Card>
-        <Card>Floor</Card>
-        <Card>Bathroom</Card>
+        <RoomCard>Kitchen</RoomCard>
+        <RoomCard>Floor</RoomCard>
+        <RoomCard>Bathroom</RoomCard>
       </div>
 
       <Nav></Nav>
